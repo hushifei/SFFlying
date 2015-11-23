@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3A59C901C02AC110085B871 /* LoginAndRegister.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A59C8E1C02AC110085B871 /* LoginAndRegister.framework */; };
+		C3A59C911C02AC110085B871 /* SFInstroduce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A59C8F1C02AC110085B871 /* SFInstroduce.framework */; };
+		C3A59C981C02D1AD0085B871 /* LoginAndRegister.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A59C961C02D1AD0085B871 /* LoginAndRegister.framework */; };
+		C3A59C991C02D1AD0085B871 /* LoginAndRegister.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C3A59C961C02D1AD0085B871 /* LoginAndRegister.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C3A59C9A1C02D1AD0085B871 /* SFInstroduce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A59C971C02D1AD0085B871 /* SFInstroduce.framework */; };
+		C3A59C9B1C02D1AD0085B871 /* SFInstroduce.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C3A59C971C02D1AD0085B871 /* SFInstroduce.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D19E3DDF1C02004E00E0A190 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E3DDE1C02004E00E0A190 /* main.m */; };
 		D19E3DE21C02004E00E0A190 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E3DE11C02004E00E0A190 /* AppDelegate.m */; };
 		D19E3DE51C02004E00E0A190 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E3DE41C02004E00E0A190 /* ViewController.m */; };
@@ -18,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C3A59C8C1C02AC040085B871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D19E3DD21C02004E00E0A190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3A59C7C1C02AAAF0085B871;
+			remoteInfo = dump;
+		};
 		D19E3DF41C02004E00E0A190 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D19E3DD21C02004E00E0A190 /* Project object */;
@@ -34,7 +47,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C3A59C9C1C02D1AD0085B871 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C3A59C991C02D1AD0085B871 /* LoginAndRegister.framework in Embed Frameworks */,
+				C3A59C9B1C02D1AD0085B871 /* SFInstroduce.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C3A59C7B1C02AAA10085B871 /* SFFlying copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SFFlying copy-Info.plist"; path = "/Users/kuaile/Desktop/SFFlying/SFFlying copy-Info.plist"; sourceTree = "<absolute>"; };
+		C3A59C891C02AAAF0085B871 /* dump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A59C8A1C02AAAF0085B871 /* SFFlying copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SFFlying copy2-Info.plist"; path = "/Users/kuaile/Desktop/SFFlying/SFFlying copy2-Info.plist"; sourceTree = "<absolute>"; };
+		C3A59C8E1C02AC110085B871 /* LoginAndRegister.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoginAndRegister.framework; path = "../LoginAndRegister/build/Debug-iphoneos/LoginAndRegister.framework"; sourceTree = "<group>"; };
+		C3A59C8F1C02AC110085B871 /* SFInstroduce.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFInstroduce.framework; path = "../SFInstroduce/build/Debug-iphoneos/SFInstroduce.framework"; sourceTree = "<group>"; };
+		C3A59C961C02D1AD0085B871 /* LoginAndRegister.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoginAndRegister.framework; path = ../Bundles/LoginAndRegister.framework; sourceTree = "<group>"; };
+		C3A59C971C02D1AD0085B871 /* SFInstroduce.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFInstroduce.framework; path = ../Bundles/SFInstroduce.framework; sourceTree = "<group>"; };
 		D19E3DDA1C02004E00E0A190 /* SFFlying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFFlying.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19E3DDE1C02004E00E0A190 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D19E3DE01C02004E00E0A190 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,10 +89,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C3A59C811C02AAAF0085B871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A59C901C02AC110085B871 /* LoginAndRegister.framework in Frameworks */,
+				C3A59C911C02AC110085B871 /* SFInstroduce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D19E3DD71C02004E00E0A190 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A59C981C02D1AD0085B871 /* LoginAndRegister.framework in Frameworks */,
+				C3A59C9A1C02D1AD0085B871 /* SFInstroduce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +124,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3A59C9D1C02D1C40085B871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3A59C961C02D1AD0085B871 /* LoginAndRegister.framework */,
+				C3A59C971C02D1AD0085B871 /* SFInstroduce.framework */,
+				C3A59C8E1C02AC110085B871 /* LoginAndRegister.framework */,
+				C3A59C8F1C02AC110085B871 /* SFInstroduce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D19E3DD11C02004E00E0A190 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +142,8 @@
 				D19E3DF61C02004E00E0A190 /* SFFlyingTests */,
 				D19E3E011C02004E00E0A190 /* SFFlyingUITests */,
 				D19E3DDB1C02004E00E0A190 /* Products */,
+				C3A59C7B1C02AAA10085B871 /* SFFlying copy-Info.plist */,
+				C3A59C8A1C02AAAF0085B871 /* SFFlying copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +153,7 @@
 				D19E3DDA1C02004E00E0A190 /* SFFlying.app */,
 				D19E3DF31C02004E00E0A190 /* SFFlyingTests.xctest */,
 				D19E3DFE1C02004E00E0A190 /* SFFlyingUITests.xctest */,
+				C3A59C891C02AAAF0085B871 /* dump.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +177,7 @@
 		D19E3DDD1C02004E00E0A190 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C3A59C9D1C02D1C40085B871 /* Frameworks */,
 				D19E3DDE1C02004E00E0A190 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +204,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C3A59C7C1C02AAAF0085B871 /* dump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A59C861C02AAAF0085B871 /* Build configuration list for PBXNativeTarget "dump" */;
+			buildPhases = (
+				C3A59C7D1C02AAAF0085B871 /* Sources */,
+				C3A59C811C02AAAF0085B871 /* Frameworks */,
+				C3A59C821C02AAAF0085B871 /* Resources */,
+				C3A59C8B1C02AABC0085B871 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dump;
+			productName = SFFlying;
+			productReference = C3A59C891C02AAAF0085B871 /* dump.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D19E3DD91C02004E00E0A190 /* SFFlying */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D19E3E071C02004E00E0A190 /* Build configuration list for PBXNativeTarget "SFFlying" */;
@@ -150,10 +229,12 @@
 				D19E3DD61C02004E00E0A190 /* Sources */,
 				D19E3DD71C02004E00E0A190 /* Frameworks */,
 				D19E3DD81C02004E00E0A190 /* Resources */,
+				C3A59C9C1C02D1AD0085B871 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C3A59C8D1C02AC040085B871 /* PBXTargetDependency */,
 			);
 			name = SFFlying;
 			productName = SFFlying;
@@ -207,6 +288,7 @@
 				TargetAttributes = {
 					D19E3DD91C02004E00E0A190 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = D69H8VACW4;
 					};
 					D19E3DF21C02004E00E0A190 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -234,11 +316,19 @@
 				D19E3DD91C02004E00E0A190 /* SFFlying */,
 				D19E3DF21C02004E00E0A190 /* SFFlyingTests */,
 				D19E3DFD1C02004E00E0A190 /* SFFlyingUITests */,
+				C3A59C7C1C02AAAF0085B871 /* dump */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C3A59C821C02AAAF0085B871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D19E3DD81C02004E00E0A190 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,7 +355,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C3A59C8B1C02AABC0085B871 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"SRCROOT=$(SRCROOT)\"\nmkdir -p Bundles\ncp -r ${BUILT_PRODUCTS_DIR}/*.framework ${SRCROOT}/Bundles;";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		C3A59C7D1C02AAAF0085B871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D19E3DD61C02004E00E0A190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,6 +409,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C3A59C8D1C02AC040085B871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3A59C7C1C02AAAF0085B871 /* dump */;
+			targetProxy = C3A59C8C1C02AC040085B871 /* PBXContainerItemProxy */;
+		};
 		D19E3DF51C02004E00E0A190 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D19E3DD91C02004E00E0A190 /* SFFlying */;
@@ -327,6 +446,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C3A59C871C02AAAF0085B871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoginAndRegister/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/SFInstroduce/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "SFFlying copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				OTHER_TAPI_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = stevenhu.SFFlying;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "03620c88-d629-497e-b2a4-31c6e42339e4";
+			};
+			name = Debug;
+		};
+		C3A59C881C02AAAF0085B871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoginAndRegister/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/SFInstroduce/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "SFFlying copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				OTHER_TAPI_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = stevenhu.SFFlying;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "03620c88-d629-497e-b2a4-31c6e42339e4";
+			};
+			name = Release;
+		};
 		D19E3E051C02004E00E0A190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -413,10 +572,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Bundles",
+				);
 				INFOPLIST_FILE = SFFlying/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = stevenhu.SFFlying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "03620c88-d629-497e-b2a4-31c6e42339e4";
 			};
 			name = Debug;
 		};
@@ -424,10 +590,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Bundles",
+				);
 				INFOPLIST_FILE = SFFlying/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = stevenhu.SFFlying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "03620c88-d629-497e-b2a4-31c6e42339e4";
 			};
 			name = Release;
 		};
@@ -482,6 +655,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C3A59C861C02AAAF0085B871 /* Build configuration list for PBXNativeTarget "dump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A59C871C02AAAF0085B871 /* Debug */,
+				C3A59C881C02AAAF0085B871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D19E3DD51C02004E00E0A190 /* Build configuration list for PBXProject "SFFlying" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -498,6 +680,7 @@
 				D19E3E091C02004E00E0A190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D19E3E0A1C02004E00E0A190 /* Build configuration list for PBXNativeTarget "SFFlyingTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +689,7 @@
 				D19E3E0C1C02004E00E0A190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D19E3E0D1C02004E00E0A190 /* Build configuration list for PBXNativeTarget "SFFlyingUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +698,7 @@
 				D19E3E0F1C02004E00E0A190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

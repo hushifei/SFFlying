@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D19E3EE31C02022B00E0A190 /* LoginAndRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = D19E3EE21C02022B00E0A190 /* LoginAndRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3A59CB01C02D4BC0085B871 /* SFloginRegisterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A59CA61C02D4BC0085B871 /* SFloginRegisterViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3A59CB11C02D4BC0085B871 /* SFloginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A59CA71C02D4BC0085B871 /* SFloginRegisterViewController.m */; };
+		C3A59CB21C02D4BC0085B871 /* SFloginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A59CA81C02D4BC0085B871 /* SFloginRegisterViewController.xib */; };
+		C3A59CB31C02D4BC0085B871 /* CYLoginRegisterTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A59CAA1C02D4BC0085B871 /* CYLoginRegisterTextField.h */; };
+		C3A59CB41C02D4BC0085B871 /* CYLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A59CAB1C02D4BC0085B871 /* CYLoginRegisterTextField.m */; };
+		C3A59CB51C02D4BC0085B871 /* CYQuickLoginButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A59CAC1C02D4BC0085B871 /* CYQuickLoginButton.h */; };
+		C3A59CB61C02D4BC0085B871 /* CYQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A59CAD1C02D4BC0085B871 /* CYQuickLoginButton.m */; };
+		C3A59CB71C02D4BC0085B871 /* UIView+SFExtenssion.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A59CAE1C02D4BC0085B871 /* UIView+SFExtenssion.h */; };
+		C3A59CB81C02D4BC0085B871 /* UIView+SFExtenssion.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A59CAF1C02D4BC0085B871 /* UIView+SFExtenssion.m */; };
+		D19E3EE31C02022B00E0A190 /* SFLoginAndRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = D19E3EE21C02022B00E0A190 /* SFLoginAndRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D19E3EEA1C02022B00E0A190 /* LoginAndRegister.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19E3EDF1C02022B00E0A190 /* LoginAndRegister.framework */; };
 		D19E3EEF1C02022B00E0A190 /* LoginAndRegisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E3EEE1C02022B00E0A190 /* LoginAndRegisterTests.m */; };
-		D19E3EFA1C02024B00E0A190 /* LoginAndRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E3EF91C02024B00E0A190 /* LoginAndRegister.m */; };
+		D19E3EFA1C02024B00E0A190 /* SFLoginAndRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E3EF91C02024B00E0A190 /* SFLoginAndRegister.m */; };
 		D19E3EFC1C0202B400E0A190 /* LoginAndRegisterConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = D19E3EFB1C0202B400E0A190 /* LoginAndRegisterConstants.h */; };
 		D19E3F041C02039100E0A190 /* Login.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19E3F031C02039100E0A190 /* Login.xcassets */; };
-		D19E3F121C02041B00E0A190 /* CYloginRegisterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D19E3F0A1C02041B00E0A190 /* CYloginRegisterViewController.h */; };
-		D19E3F131C02041B00E0A190 /* CYloginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E3F0B1C02041B00E0A190 /* CYloginRegisterViewController.m */; };
-		D19E3F141C02041B00E0A190 /* CYloginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19E3F0C1C02041B00E0A190 /* CYloginRegisterViewController.xib */; };
-		D19E3F151C02041B00E0A190 /* CYLoginRegisterTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = D19E3F0E1C02041B00E0A190 /* CYLoginRegisterTextField.h */; };
-		D19E3F161C02041B00E0A190 /* CYLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E3F0F1C02041B00E0A190 /* CYLoginRegisterTextField.m */; };
-		D19E3F171C02041B00E0A190 /* CYQuickLoginButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D19E3F101C02041B00E0A190 /* CYQuickLoginButton.h */; };
-		D19E3F181C02041B00E0A190 /* CYQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E3F111C02041B00E0A190 /* CYQuickLoginButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,22 +35,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3A59CA61C02D4BC0085B871 /* SFloginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFloginRegisterViewController.h; sourceTree = "<group>"; };
+		C3A59CA71C02D4BC0085B871 /* SFloginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFloginRegisterViewController.m; sourceTree = "<group>"; };
+		C3A59CA81C02D4BC0085B871 /* SFloginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFloginRegisterViewController.xib; sourceTree = "<group>"; };
+		C3A59CAA1C02D4BC0085B871 /* CYLoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLoginRegisterTextField.h; sourceTree = "<group>"; };
+		C3A59CAB1C02D4BC0085B871 /* CYLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLoginRegisterTextField.m; sourceTree = "<group>"; };
+		C3A59CAC1C02D4BC0085B871 /* CYQuickLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYQuickLoginButton.h; sourceTree = "<group>"; };
+		C3A59CAD1C02D4BC0085B871 /* CYQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYQuickLoginButton.m; sourceTree = "<group>"; };
+		C3A59CAE1C02D4BC0085B871 /* UIView+SFExtenssion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SFExtenssion.h"; sourceTree = "<group>"; };
+		C3A59CAF1C02D4BC0085B871 /* UIView+SFExtenssion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFExtenssion.m"; sourceTree = "<group>"; };
 		D19E3EDF1C02022B00E0A190 /* LoginAndRegister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginAndRegister.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D19E3EE21C02022B00E0A190 /* LoginAndRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAndRegister.h; sourceTree = "<group>"; };
+		D19E3EE21C02022B00E0A190 /* SFLoginAndRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFLoginAndRegister.h; sourceTree = "<group>"; };
 		D19E3EE41C02022B00E0A190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D19E3EE91C02022B00E0A190 /* LoginAndRegisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAndRegisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19E3EEE1C02022B00E0A190 /* LoginAndRegisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAndRegisterTests.m; sourceTree = "<group>"; };
 		D19E3EF01C02022B00E0A190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D19E3EF91C02024B00E0A190 /* LoginAndRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAndRegister.m; sourceTree = "<group>"; };
+		D19E3EF91C02024B00E0A190 /* SFLoginAndRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLoginAndRegister.m; sourceTree = "<group>"; };
 		D19E3EFB1C0202B400E0A190 /* LoginAndRegisterConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAndRegisterConstants.h; sourceTree = "<group>"; };
 		D19E3F031C02039100E0A190 /* Login.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Login.xcassets; path = ../Login.xcassets; sourceTree = "<group>"; };
-		D19E3F0A1C02041B00E0A190 /* CYloginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYloginRegisterViewController.h; sourceTree = "<group>"; };
-		D19E3F0B1C02041B00E0A190 /* CYloginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYloginRegisterViewController.m; sourceTree = "<group>"; };
-		D19E3F0C1C02041B00E0A190 /* CYloginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYloginRegisterViewController.xib; sourceTree = "<group>"; };
-		D19E3F0E1C02041B00E0A190 /* CYLoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLoginRegisterTextField.h; sourceTree = "<group>"; };
-		D19E3F0F1C02041B00E0A190 /* CYLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLoginRegisterTextField.m; sourceTree = "<group>"; };
-		D19E3F101C02041B00E0A190 /* CYQuickLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYQuickLoginButton.h; sourceTree = "<group>"; };
-		D19E3F111C02041B00E0A190 /* CYQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYQuickLoginButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +74,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3A59CA51C02D4BC0085B871 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3A59CA61C02D4BC0085B871 /* SFloginRegisterViewController.h */,
+				C3A59CA71C02D4BC0085B871 /* SFloginRegisterViewController.m */,
+				C3A59CA81C02D4BC0085B871 /* SFloginRegisterViewController.xib */,
+			);
+			name = Controller;
+			path = LoginAndRegister/Controller;
+			sourceTree = "<group>";
+		};
+		C3A59CA91C02D4BC0085B871 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3A59CAA1C02D4BC0085B871 /* CYLoginRegisterTextField.h */,
+				C3A59CAB1C02D4BC0085B871 /* CYLoginRegisterTextField.m */,
+				C3A59CAC1C02D4BC0085B871 /* CYQuickLoginButton.h */,
+				C3A59CAD1C02D4BC0085B871 /* CYQuickLoginButton.m */,
+				C3A59CAE1C02D4BC0085B871 /* UIView+SFExtenssion.h */,
+				C3A59CAF1C02D4BC0085B871 /* UIView+SFExtenssion.m */,
+			);
+			name = View;
+			path = LoginAndRegister/View;
+			sourceTree = "<group>";
+		};
 		D19E3ED51C02022B00E0A190 = {
 			isa = PBXGroup;
 			children = (
 				D19E3EE11C02022B00E0A190 /* LoginAndRegister */,
+				C3A59CA51C02D4BC0085B871 /* Controller */,
+				C3A59CA91C02D4BC0085B871 /* View */,
 				D19E3EED1C02022B00E0A190 /* LoginAndRegisterTests */,
 				D19E3EE01C02022B00E0A190 /* Products */,
 			);
@@ -91,11 +122,9 @@
 		D19E3EE11C02022B00E0A190 /* LoginAndRegister */ = {
 			isa = PBXGroup;
 			children = (
-				D19E3EE21C02022B00E0A190 /* LoginAndRegister.h */,
-				D19E3EF91C02024B00E0A190 /* LoginAndRegister.m */,
+				D19E3EE21C02022B00E0A190 /* SFLoginAndRegister.h */,
+				D19E3EF91C02024B00E0A190 /* SFLoginAndRegister.m */,
 				D19E3EFB1C0202B400E0A190 /* LoginAndRegisterConstants.h */,
-				D19E3F091C02041B00E0A190 /* Controller */,
-				D19E3F0D1C02041B00E0A190 /* View */,
 				D19E3F031C02039100E0A190 /* Login.xcassets */,
 				D19E3EE41C02022B00E0A190 /* Info.plist */,
 			);
@@ -111,27 +140,6 @@
 			path = LoginAndRegisterTests;
 			sourceTree = "<group>";
 		};
-		D19E3F091C02041B00E0A190 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D19E3F0A1C02041B00E0A190 /* CYloginRegisterViewController.h */,
-				D19E3F0B1C02041B00E0A190 /* CYloginRegisterViewController.m */,
-				D19E3F0C1C02041B00E0A190 /* CYloginRegisterViewController.xib */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		D19E3F0D1C02041B00E0A190 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D19E3F0E1C02041B00E0A190 /* CYLoginRegisterTextField.h */,
-				D19E3F0F1C02041B00E0A190 /* CYLoginRegisterTextField.m */,
-				D19E3F101C02041B00E0A190 /* CYQuickLoginButton.h */,
-				D19E3F111C02041B00E0A190 /* CYQuickLoginButton.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -139,11 +147,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19E3EE31C02022B00E0A190 /* LoginAndRegister.h in Headers */,
+				C3A59CB71C02D4BC0085B871 /* UIView+SFExtenssion.h in Headers */,
+				C3A59CB01C02D4BC0085B871 /* SFloginRegisterViewController.h in Headers */,
+				D19E3EE31C02022B00E0A190 /* SFLoginAndRegister.h in Headers */,
 				D19E3EFC1C0202B400E0A190 /* LoginAndRegisterConstants.h in Headers */,
-				D19E3F121C02041B00E0A190 /* CYloginRegisterViewController.h in Headers */,
-				D19E3F171C02041B00E0A190 /* CYQuickLoginButton.h in Headers */,
-				D19E3F151C02041B00E0A190 /* CYLoginRegisterTextField.h in Headers */,
+				C3A59CB51C02D4BC0085B871 /* CYQuickLoginButton.h in Headers */,
+				C3A59CB31C02D4BC0085B871 /* CYLoginRegisterTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,8 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A59CB21C02D4BC0085B871 /* SFloginRegisterViewController.xib in Resources */,
 				D19E3F041C02039100E0A190 /* Login.xcassets in Resources */,
-				D19E3F141C02041B00E0A190 /* CYloginRegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,10 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19E3EFA1C02024B00E0A190 /* LoginAndRegister.m in Sources */,
-				D19E3F181C02041B00E0A190 /* CYQuickLoginButton.m in Sources */,
-				D19E3F131C02041B00E0A190 /* CYloginRegisterViewController.m in Sources */,
-				D19E3F161C02041B00E0A190 /* CYLoginRegisterTextField.m in Sources */,
+				C3A59CB11C02D4BC0085B871 /* SFloginRegisterViewController.m in Sources */,
+				C3A59CB61C02D4BC0085B871 /* CYQuickLoginButton.m in Sources */,
+				D19E3EFA1C02024B00E0A190 /* SFLoginAndRegister.m in Sources */,
+				C3A59CB41C02D4BC0085B871 /* CYLoginRegisterTextField.m in Sources */,
+				C3A59CB81C02D4BC0085B871 /* UIView+SFExtenssion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,10 +372,12 @@
 		D19E3EF41C02022B00E0A190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = LoginAndRegister/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -378,10 +390,12 @@
 		D19E3EF51C02022B00E0A190 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = LoginAndRegister/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -430,6 +444,7 @@
 				D19E3EF51C02022B00E0A190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D19E3EF61C02022B00E0A190 /* Build configuration list for PBXNativeTarget "LoginAndRegisterTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +453,7 @@
 				D19E3EF81C02022B00E0A190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

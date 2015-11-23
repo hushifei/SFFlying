@@ -1,5 +1,5 @@
 //
-//  SFLoginRegisterTextField.h
+//  SFloginRegisterViewController.h
 //  SFFlying
 //
 //  Created by stevenhu on 15/11/22.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CYLoginRegisterTextField : UITextField
+@interface SFloginRegisterViewController : UIViewController
 
 @end

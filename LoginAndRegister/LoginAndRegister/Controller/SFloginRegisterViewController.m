@@ -1,19 +1,20 @@
 //
-//  CYloginRegisterViewController.m
-//  聪颖不聪颖
+//  SFloginRegisterViewController.m
+//  SFFlying
 //
-//  Created by 葛聪颖 on 15/9/27.
-//  Copyright © 2015年 gecongying. All rights reserved.
+//  Created by stevenhu on 15/11/22.
+//  Copyright © 2015年 stevenhu. All rights reserved.
 //
 
-#import "CYloginRegisterViewController.h"
+#import "SFloginRegisterViewController.h"
+#import "UIView+SFExtenssion.h"
 
-@interface CYloginRegisterViewController ()
+@interface SFloginRegisterViewController ()
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *leadingSpace;
 
 @end
 
-@implementation CYloginRegisterViewController
+@implementation SFloginRegisterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

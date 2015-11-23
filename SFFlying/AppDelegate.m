@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import <SFInstroduce/SFInstroduceVC.h>
+#import <LoginAndRegister/SFLoginAndRegister.h>
 @interface AppDelegate ()
 
 @end
@@ -16,8 +17,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+   BOOL canShow= [SFInstroduceVC canShowNewFeature];
+    canShow=YES;//debug model
+    if (canShow) {
+      self.window.rootViewController=[SFInstroduceVC createSFIntroduceVCEnterBlock:^{
+            [self enterLoginAndRegister];
+        }];
+    }
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
+}
+
+- (void)enterLoginAndRegister {
+    self.window.rootViewController=[SFLoginAndRegister createLoginAndRegisterViewControllerWithType:0 completed:^(NSDictionary * _Nullable dict) {
+        if (dict!=nil) {
+            NSLog(@"ok");
+        }
+    }];
+     [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

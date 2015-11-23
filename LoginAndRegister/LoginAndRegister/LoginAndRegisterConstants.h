@@ -12,10 +12,6 @@
 //
 #ifndef ___________0901_PrefixHeader_pch
 #define ___________0901_PrefixHeader_pch
-#import <UIKit/UIKit.h>
-#import "UIBarButtonItem+CYExtension.h"
-#import "UIView+CYExtenssion.h"
-
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 // 日志输出

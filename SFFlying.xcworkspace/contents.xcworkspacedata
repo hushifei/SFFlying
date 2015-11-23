@@ -5,9 +5,9 @@
       location = "group:SFFlying.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LoginAndRegister/LoginAndRegister.xcodeproj">
+      location = "group:SFInstroduce/SFInstroduce.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:SFInstroduce/SFInstroduce.xcodeproj">
+      location = "group:LoginAndRegister/LoginAndRegister.xcodeproj">
    </FileRef>
 </Workspace>

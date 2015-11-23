@@ -1,14 +1,16 @@
 //
-//  CYLoginRegisterTextField.m
+//  SFLoginRegisterTextField.m
 //  聪颖不聪颖
 //
-//  Created by 葛聪颖 on 15/10/3.
-//  Copyright © 2015年 gecongying. All rights reserved.
+//  SFFlying
+//
+//  Created by stevenhu on 15/11/22.
+//  Copyright © 2015年 stevenhu. All rights reserved.
 //
 
 #import "CYLoginRegisterTextField.h"
 #import <objc/runtime.h>
-
+#import "LoginAndRegisterConstants.h"
 @interface CYLoginRegisterTextField() <UITextFieldDelegate>
 
 @end
