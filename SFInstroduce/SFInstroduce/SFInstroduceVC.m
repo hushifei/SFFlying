@@ -71,19 +71,24 @@ NSString *const NewFeatureVersionKey = @"NewFeatureVersionKey";
     return sfInstroduceVC;
 }
 
-+(instancetype)createSFIntroduceVCEnterBlock:(void(^)())enterBlock {
++(nullable instancetype)createSFIntroduceVCWithImages:(NSArray<UIImage*>* __nonnull)array enterBlock:(void(^_Nullable)())enterBlock {
     //解析xml文件
     //根据xml解析之后的模型创建FeatureModel
     
-    NSBundle *currentBundle=[NSBundle bundleForClass:[self class]];
-    NSString *path1=[currentBundle pathForResource:@"f1@2x" ofType:@"png"];
-    NSString *path2=[currentBundle pathForResource:@"f2@2x" ofType:@"png"];
-    NSString *path3=[currentBundle pathForResource:@"f3@2x" ofType:@"png"];
+//    NSBundle *currentBundle=[NSBundle bundleForClass:[self class]];
+//    NSString *path1=[currentBundle pathForResource:@"f1@2x" ofType:@"png"];
+//    NSString *path2=[currentBundle pathForResource:@"f2@2x" ofType:@"png"];
+//    NSString *path3=[currentBundle pathForResource:@"f3@2x" ofType:@"png"];
 
-    FeatureModel *m1 = [FeatureModel model:[UIImage imageNamed:path1]];
-    FeatureModel *m2 = [FeatureModel model:[UIImage imageNamed:path2]];
-    FeatureModel *m3 = [FeatureModel model:[UIImage imageNamed:path3]];
-   return  [self createSFIntroduceVCWithModels:@[m1,m2,m3] enterBlock:enterBlock];
+//    FeatureModel *m1 = [FeatureModel model:[UIImage imageNamed:path1]];
+//    FeatureModel *m2 = [FeatureModel model:[UIImage imageNamed:path2]];
+//    FeatureModel *m3 = [FeatureModel model:[UIImage imageNamed:path3]];
+    NSMutableArray *models=[[NSMutableArray alloc]init];
+    for (UIImage *image in array) {
+        FeatureModel *m = [FeatureModel model:image];
+        [models addObject:m];
+    }
+   return  [self createSFIntroduceVCWithModels:models enterBlock:enterBlock];
 }
 
 

@@ -18,7 +18,7 @@ FOUNDATION_EXPORT const unsigned char SFInstroduceVersionString[];
 
 @interface SFInstroduceVC : UIViewController
 
-@property (nonatomic,strong) NSArray *images;
+@property (nonatomic,strong) NSArray * _Nullable images;
 
 
 
@@ -26,7 +26,7 @@ FOUNDATION_EXPORT const unsigned char SFInstroduceVersionString[];
  *  初始化
  */
 
-+(instancetype)createSFIntroduceVCEnterBlock:(void(^)())enterBlock;
++(nullable instancetype)createSFIntroduceVCWithImages:(NSArray<UIImage*>* __nonnull)array enterBlock:(void(^_Nullable)())enterBlock;
 
 
 /*

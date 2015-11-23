@@ -20,9 +20,10 @@
    BOOL canShow= [SFInstroduceVC canShowNewFeature];
     canShow=YES;//debug model
     if (canShow) {
-      self.window.rootViewController=[SFInstroduceVC createSFIntroduceVCEnterBlock:^{
-            [self enterLoginAndRegister];
-        }];
+
+      self.window.rootViewController=[SFInstroduceVC createSFIntroduceVCWithImages:@[[UIImage imageNamed:@"f1"],[UIImage imageNamed:@"f2"],[UIImage imageNamed:@"f3"]] enterBlock:^{
+          [self enterLoginAndRegister];
+      }];
     }
     [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
