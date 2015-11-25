@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SFloginRegisterViewController : UIViewController
-
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withBlock:(void (^)(NSDictionary * dict))completed;
 @end

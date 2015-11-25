@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <SFInstroduce/SFInstroduceVC.h>
 #import <LoginAndRegister/SFLoginAndRegister.h>
+#import "BaseTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -38,9 +39,12 @@
 
 - (void)enterLoginAndRegister {
     self.window.rootViewController=[SFLoginAndRegister createLoginAndRegisterViewControllerWithType:0 completed:^(NSDictionary * _Nullable dict) {
-        if (dict!=nil) {
+//        if (dict!=nil) {
+        BaseTabBarController *rootVC = [[BaseTabBarController alloc] init];
+        [self.window setRootViewController:rootVC];
+        [self.window addSubview:rootVC.view];
             NSLog(@"ok");
-        }
+//        }
     }];
 }
 

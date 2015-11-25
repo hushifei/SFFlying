@@ -20,11 +20,9 @@ typedef NS_ENUM(NSUInteger,startType) {
     startType_Launch=0,
     startType_InApp
 };
-typedef void (^Completion)(NSDictionary * _Nullable);
 
 @interface SFLoginAndRegister :NSObject
 @property(nonatomic,strong)SFloginRegisterViewController* _Nullable loginRegisterViewController;
-@property(nonatomic,strong)Completion _Nullable complete;
 + (nullable SFloginRegisterViewController*)createLoginAndRegisterViewControllerWithType:(startType)type completed:(void(^_Nullable)(NSDictionary* _Nullable dict ))completed;
 - (void)dismissLoginAndRegisterViewController:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
 @end

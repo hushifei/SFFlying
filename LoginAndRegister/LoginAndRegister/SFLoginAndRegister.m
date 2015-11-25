@@ -13,14 +13,10 @@
 
 + (nullable SFloginRegisterViewController*)createLoginAndRegisterViewControllerWithType:(startType)type completed:(void (^)(NSDictionary * _Nullable))completed {
     SFLoginAndRegister *loginAndRe=[[self alloc]init];
-    
-    if (completed) {
-        loginAndRe.complete=completed;
-    }
     if (type==startType_Launch) {
-        loginAndRe.loginRegisterViewController=[[SFloginRegisterViewController alloc]initWithNibName:@"SFloginRegisterViewController" bundle:[NSBundle bundleForClass:[self class]]];
+        loginAndRe.loginRegisterViewController=[[SFloginRegisterViewController alloc]initWithNibName:@"SFloginRegisterViewController" bundle:[NSBundle bundleForClass:[self class]]withBlock:completed];
     } else if (type==startType_InApp) {
-        loginAndRe.loginRegisterViewController=[[SFloginRegisterViewController alloc]initWithNibName:@"SFloginRegisterViewController" bundle:[NSBundle bundleForClass:[self class]]];
+        loginAndRe.loginRegisterViewController=[[SFloginRegisterViewController alloc]initWithNibName:@"SFloginRegisterViewController" bundle:[NSBundle bundleForClass:[self class]]withBlock:completed];
     }
     return loginAndRe.loginRegisterViewController;
 

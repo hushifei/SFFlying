@@ -8,9 +8,11 @@
 
 #import "SFloginRegisterViewController.h"
 #import "UIView+SFExtenssion.h"
+typedef void (^Completion)(NSDictionary * dict);
 
 @interface SFloginRegisterViewController ()
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *leadingSpace;
+@property(nonatomic,strong)Completion completed;
 
 @end
 
@@ -24,6 +26,13 @@
     //    [self.loginButton setValue:@5 forKeyPath:@"layer.cornerRadius"];
     //    [self.loginButton setValue:@YES forKeyPath:@"layer.masksToBounds"];
     //    self.loginButton.clipsToBounds = YES;
+}
+
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil withBlock:(void (^)(NSDictionary * dict))completed {
+        if (self=[super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+            _completed=completed;
+        }
+    return self;
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle
@@ -57,6 +66,12 @@
     [UIView animateWithDuration:0.25 animations:^{
         [self.view layoutIfNeeded];
     }];
+}
+
+- (IBAction)Login:(id)sender {
+    if (_completed) {
+        _completed(nil);
+    }
 }
 
 
