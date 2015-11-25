@@ -17,16 +17,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-   BOOL canShow= [SFInstroduceVC canShowNewFeature];
-    canShow=YES;//debug model
-    if (canShow) {
-
-      self.window.rootViewController=[SFInstroduceVC createSFIntroduceVCWithImages:@[[UIImage imageNamed:@"f1"],[UIImage imageNamed:@"f2"],[UIImage imageNamed:@"f3"]] enterBlock:^{
-          [self enterLoginAndRegister];
-      }];
+    // Override point for customization after application launch.
+    UIWindow *window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    window.backgroundColor=[UIColor whiteColor];
+    
+//    NSArray *images=@[[UIImage imageNamed:@"f1"],[UIImage imageNamed:@"f2"],[UIImage imageNamed:@"f3"]];
+    NSArray *coverImageNames = @[@"img_index_01txt", @"img_index_02txt", @"img_index_03txt"];
+    NSArray *backgroundImageNames = @[@"img_index_01bg", @"img_index_02bg", @"img_index_03bg"];
+   UIViewController *viewController=  [SFInstroduceVC createWithWithImages:coverImageNames bgImages:backgroundImageNames button:[UIButton new] enterBlock:^{
+         [self enterLoginAndRegister];
+     }];
+    if (viewController) {
+        self.window.rootViewController=viewController;
+    } else {
+        [self enterLoginAndRegister];
     }
     [self.window makeKeyAndVisible];
-    // Override point for customization after application launch.
     return YES;
 }
 
@@ -36,7 +42,6 @@
             NSLog(@"ok");
         }
     }];
-     [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

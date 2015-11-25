@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C36A52271C05561F00FC8FB5 /* SFIntroductionVCTypeTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = C36A52251C05561F00FC8FB5 /* SFIntroductionVCTypeTwo.h */; };
+		C36A52281C05561F00FC8FB5 /* SFIntroductionVCTypeTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A52261C05561F00FC8FB5 /* SFIntroductionVCTypeTwo.m */; };
+		C36A522B1C05565700FC8FB5 /* SFIntroductionVCTypeOne.h in Headers */ = {isa = PBXBuildFile; fileRef = C36A52291C05565700FC8FB5 /* SFIntroductionVCTypeOne.h */; };
+		C36A522C1C05565700FC8FB5 /* SFIntroductionVCTypeOne.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A522A1C05565700FC8FB5 /* SFIntroductionVCTypeOne.m */; };
+		C36A522F1C05568800FC8FB5 /* BaseSFIntroductionVC.h in Headers */ = {isa = PBXBuildFile; fileRef = C36A522D1C05568800FC8FB5 /* BaseSFIntroductionVC.h */; };
+		C36A52301C05568800FC8FB5 /* BaseSFIntroductionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A522E1C05568800FC8FB5 /* BaseSFIntroductionVC.m */; };
 		D1C51B851BFE10BA006209DC /* SFInstroduceVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C51B841BFE10BA006209DC /* SFInstroduceVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1C51B8C1BFE10BA006209DC /* SFInstroduce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C51B811BFE10BA006209DC /* SFInstroduce.framework */; };
 		D1C51B911BFE10BA006209DC /* SFInstroduceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C51B901BFE10BA006209DC /* SFInstroduceTests.m */; };
@@ -99,6 +105,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C36A52251C05561F00FC8FB5 /* SFIntroductionVCTypeTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFIntroductionVCTypeTwo.h; sourceTree = "<group>"; };
+		C36A52261C05561F00FC8FB5 /* SFIntroductionVCTypeTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFIntroductionVCTypeTwo.m; sourceTree = "<group>"; };
+		C36A52291C05565700FC8FB5 /* SFIntroductionVCTypeOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFIntroductionVCTypeOne.h; sourceTree = "<group>"; };
+		C36A522A1C05565700FC8FB5 /* SFIntroductionVCTypeOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFIntroductionVCTypeOne.m; sourceTree = "<group>"; };
+		C36A522D1C05568800FC8FB5 /* BaseSFIntroductionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSFIntroductionVC.h; sourceTree = "<group>"; };
+		C36A522E1C05568800FC8FB5 /* BaseSFIntroductionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSFIntroductionVC.m; sourceTree = "<group>"; };
 		D1C51B811BFE10BA006209DC /* SFInstroduce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFInstroduce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C51B841BFE10BA006209DC /* SFInstroduceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFInstroduceVC.h; sourceTree = "<group>"; };
 		D1C51B861BFE10BA006209DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -490,6 +502,12 @@
 		D1C51C021BFE11F8006209DC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C36A522D1C05568800FC8FB5 /* BaseSFIntroductionVC.h */,
+				C36A522E1C05568800FC8FB5 /* BaseSFIntroductionVC.m */,
+				C36A52291C05565700FC8FB5 /* SFIntroductionVCTypeOne.h */,
+				C36A522A1C05565700FC8FB5 /* SFIntroductionVCTypeOne.m */,
+				C36A52251C05561F00FC8FB5 /* SFIntroductionVCTypeTwo.h */,
+				C36A52261C05561F00FC8FB5 /* SFIntroductionVCTypeTwo.m */,
 				D1C51C031BFE11F8006209DC /* NewFeatureImageV.h */,
 				D1C51C041BFE11F8006209DC /* NewFeatureImageV.m */,
 				D1C51C051BFE11F8006209DC /* NewFeatureScrollView.h */,
@@ -514,6 +532,7 @@
 				D1C51C211BFE11F8006209DC /* UIFont+Extend.h in Headers */,
 				D1C51C351BFE11F8006209DC /* MASCompositeConstraint.h in Headers */,
 				D1C51C111BFE11F8006209DC /* NSArray+Extend.h in Headers */,
+				C36A52271C05561F00FC8FB5 /* SFIntroductionVCTypeTwo.h in Headers */,
 				D1C51C191BFE11F8006209DC /* NSString+Password.h in Headers */,
 				D1C51C4E1BFE11F8006209DC /* UIApplication+Extend.h in Headers */,
 				D1C51C3C1BFE11F8006209DC /* MASLayoutConstraint.h in Headers */,
@@ -527,9 +546,11 @@
 				D1C51C1D1BFE11F8006209DC /* UIColor+Extend.h in Headers */,
 				D1C51C381BFE11F8006209DC /* MASConstraint.h in Headers */,
 				D1C51C371BFE11F8006209DC /* MASConstraint+Private.h in Headers */,
+				C36A522B1C05565700FC8FB5 /* SFIntroductionVCTypeOne.h in Headers */,
 				D1C51C251BFE11F8006209DC /* UIImage+Cut.h in Headers */,
 				D1C51C2D1BFE11F8006209DC /* UITableViewCell+Extend.h in Headers */,
 				D1C51C171BFE11F8006209DC /* NSString+Extend.h in Headers */,
+				C36A522F1C05568800FC8FB5 /* BaseSFIntroductionVC.h in Headers */,
 				D1C51C0B1BFE11F8006209DC /* CoreArchive.h in Headers */,
 				D1C51C461BFE11F8006209DC /* NSArray+MASShorthandAdditions.h in Headers */,
 				D1C51C311BFE11F8006209DC /* UIWindow+Launch.h in Headers */,
@@ -658,6 +679,7 @@
 				D1C51C451BFE11F8006209DC /* NSArray+MASAdditions.m in Sources */,
 				D1C51C0C1BFE11F8006209DC /* CoreArchive.m in Sources */,
 				D1C51C561BFE11F8006209DC /* NewFeatureImageV.m in Sources */,
+				C36A52281C05561F00FC8FB5 /* SFIntroductionVCTypeTwo.m in Sources */,
 				D1C51C281BFE11F8006209DC /* UIImage+Extend.m in Sources */,
 				D1C51C391BFE11F8006209DC /* MASConstraint.m in Sources */,
 				D1C51C1A1BFE11F8006209DC /* NSString+Password.m in Sources */,
@@ -673,11 +695,13 @@
 				D1C51C0E1BFE11F8006209DC /* CALayer+Anim.m in Sources */,
 				D1C51C1E1BFE11F8006209DC /* UIColor+Extend.m in Sources */,
 				D1C51C1C1BFE11F8006209DC /* UIBarButtonItem+Extend.m in Sources */,
+				C36A522C1C05565700FC8FB5 /* SFIntroductionVCTypeOne.m in Sources */,
 				D1C51C481BFE11F8006209DC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				D1C51C121BFE11F8006209DC /* NSArray+Extend.m in Sources */,
 				D1C51C241BFE11F8006209DC /* UIImage+Color.m in Sources */,
 				D1C51C3B1BFE11F8006209DC /* MASConstraintMaker.m in Sources */,
 				D1C51C0A1BFE11F8006209DC /* NSString+File.m in Sources */,
+				C36A52301C05568800FC8FB5 /* BaseSFIntroductionVC.m in Sources */,
 				D1C51C581BFE11F8006209DC /* NewFeatureScrollView.m in Sources */,
 				D1C51C321BFE11F8006209DC /* UIWindow+Launch.m in Sources */,
 				D1C51C161BFE11F8006209DC /* NSObject+Extend.m in Sources */,

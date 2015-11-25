@@ -16,25 +16,12 @@ FOUNDATION_EXPORT const unsigned char SFInstroduceVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <SFInstroduce/PublicHeader.h>
 
 
-@interface SFInstroduceVC : UIViewController
-
-@property (nonatomic,strong) NSArray * _Nullable images;
-
-
+@interface SFInstroduceVC : NSObject
 
 /*
  *  初始化
  */
 
-+(nullable instancetype)createSFIntroduceVCWithImages:(NSArray<UIImage*>* __nonnull)array enterBlock:(void(^_Nullable)())enterBlock;
-
-
-/*
- *  是否应该显示版本新特性界面
- */
-+(BOOL)canShowNewFeature;
-
-
-
++(nullable UIViewController*)createWithWithImages:(NSArray *_Nullable)images bgImages:(NSArray<UIImage*>* _Nullable)bgImages button:(UIButton* _Nullable)button enterBlock:(void(^_Nullable)())enterBlock;
 
 @end
